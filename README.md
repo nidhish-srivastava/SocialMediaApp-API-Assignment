@@ -18,13 +18,13 @@ Follow these steps to get the project up and running locally.
 Start by cloning the repository to your local machine. Open a terminal and run:
 
 ```bash
-git clone https://github.com/your-username/social-media-app-api.git
+git clone https://github.com/nidhish-srivastava/SocialMediaApp-API-Assignment.git
 ```
 
 ### 2. Navigate to the Project Directory
 Go into the project directory:
 ```bash
-cd social-media-app-api
+cd SocialMediaApp-API-Assignment
 ```
 
 ### 3. Install Dependencies
@@ -53,6 +53,8 @@ By Default it is running on port 3000
 Once the app is running, you can access the API documentation at:
 http://localhost:3000/api-docs
 
-### Database design schema - https://excalidraw.com/#json=l1s13_7xsPgg4t6Ae3Qmp,05_CSiROvvsjiVWz4yR2IQ
+### Database design schema:
+https://excalidraw.com/#json=l1s13_7xsPgg4t6Ae3Qmp,05_CSiROvvsjiVWz4yR2IQ
 
-### Deployment(Vercel) - https://social-media-app-api-ten.vercel.app/
+### Deployment(Vercel):
+ https://social-media-app-api-ten.vercel.app/
