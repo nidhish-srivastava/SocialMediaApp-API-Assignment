@@ -47,17 +47,12 @@ Once everything is set up, start the Express.js application locally:
 ```bash
 npm run dev
 ```
+By Default it is running on port 3000
 
 ### 6. Access the API Documentation
 Once the app is running, you can access the API documentation at:
 http://localhost:3000/api-docs
 
+### Database design schema - https://excalidraw.com/#json=l1s13_7xsPgg4t6Ae3Qmp,05_CSiROvvsjiVWz4yR2IQ
 
-
-
-API DOCS - Go to this endpoint --> /api-docs
-
-Database design schema - https://excalidraw.com/#json=l1s13_7xsPgg4t6Ae3Qmp,05_CSiROvvsjiVWz4yR2IQ
-
-
-Deployment(Vercel) - https://social-media-app-api-ten.vercel.app/
+### Deployment(Vercel) - https://social-media-app-api-ten.vercel.app/
