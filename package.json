@@ -4,6 +4,7 @@
   "description": "social media api assignment ",
   "main": "index.js",
   "type": "module",
+  "experimentalModules": true,
   "scripts": {
     "dev": "nodemon index.js",
     "generateDoc": "node utils/swagger.js"
