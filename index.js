@@ -29,6 +29,11 @@ const start = async () => {
 }
 start()
 
+app.get('/', (req, res) => {
+    res.status(200).json({
+        message: "Server is running."
+    });
+});
 app.use(router)
 
 
