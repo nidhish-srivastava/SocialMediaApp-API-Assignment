@@ -4,7 +4,7 @@ import cors from "cors"
 import { connectmongodb } from "./utils/connectToDb.js"
 import dotenv from "dotenv"
 import swaggerui from "swagger-ui-express"
-import swaggerDocument from "./swagger-output.json" 
+import swaggerDocument from "./swagger-output.json" assert { type: 'json' };
 import router from "./routes/index.js"
 import {Server} from "socket.io"
 import http from "http"
