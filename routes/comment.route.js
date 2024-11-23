@@ -1,8 +1,8 @@
-import express from "express"
-import { createComment } from "../controllers/comment.controller.js"
-import { verifyJWT } from "../middleware/auth.middleware.js"
-const router = express.Router()
+import express from 'express';
+import { createComment } from '../controllers/comment.controller.js';
 
-router.post("/",verifyJWT,createComment)
+const router = express.Router();
 
-export default router
+router.post('/', createComment);
+
+export default router;

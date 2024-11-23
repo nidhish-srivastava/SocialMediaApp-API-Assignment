@@ -3,18 +3,19 @@ const app = express()
 import cookieParser from "cookie-parser"
 import cors from "cors"
 import { connectmongodb } from "./utils/connectToDb.js"
-import userRoutes from "./routes/user.route.js"
-import commentRoutes from "./routes/comment.route.js"
-import postRoutes from "./routes/post.route.js"
 import dotenv from "dotenv"
+import swaggerui from "swagger-ui-express"
+import swaggerDocument from "./swagger-output.json" assert { type: 'json' };
+import router from "./routes/index.js"
+
 dotenv.config()
 
 const port = 3000 || process.env.PORT
 app.use(express.json())
 app.use(cookieParser())
 
+app.use("/api-docs",swaggerui.serve,swaggerui.setup(swaggerDocument))
 app.use(cors({
-    // origin : ["http://localhost:5173"], // add the domain u want to allow
     credentials : true
 }))
 
@@ -26,9 +27,7 @@ const start = async() =>{
 }
 start()
 
+app.use(router)
 
-app.use("/api/v1/user",userRoutes)
-app.use("/api/v1/post",postRoutes)
-app.use("/api/v1/comment",commentRoutes)
 
 export default app  
