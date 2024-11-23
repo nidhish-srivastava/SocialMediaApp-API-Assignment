@@ -53,6 +53,7 @@ By Default it is running on port 3000
 Once the app is running, you can access the API documentation at:
 http://localhost:3000/api-docs
 
+
 ### Database design schema:
 https://excalidraw.com/#json=l1s13_7xsPgg4t6Ae3Qmp,05_CSiROvvsjiVWz4yR2IQ
 
