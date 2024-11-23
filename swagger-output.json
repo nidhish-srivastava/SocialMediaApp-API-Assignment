@@ -303,7 +303,7 @@
     "/api/v1/user/current-user": {
       "get": {
         "tags": [
-          "Fetch logged in userinfo"
+          "Logged in User"
         ],
         "description": "Endpoint to fetch the currently logged in user information",
         "parameters": [

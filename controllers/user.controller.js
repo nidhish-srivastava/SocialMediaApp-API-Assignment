@@ -149,7 +149,7 @@ const logout = async (req, res) => {
 }
 
 const currentUser = async (req, res) => {
-    //  #swagger.tags=['Fetch logged in userinfo']
+    //  #swagger.tags=['Logged in User']
     //  #swagger.description='Endpoint to fetch the currently logged in user information'
     /*  #swagger.responses[200] = {
             description: 'Current user info fetched successfully',
