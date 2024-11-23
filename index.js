@@ -4,10 +4,8 @@ import cors from "cors"
 import { connectmongodb } from "./utils/connectToDb.js"
 import dotenv from "dotenv"
 import swaggerui from "swagger-ui-express"
-import fs from 'fs';
-import path from 'path';
-const swaggerDocument = JSON.parse(fs.readFileSync(path.resolve('swagger-output.json'), 'utf-8'));
 import router from "./routes/index.js"
+import swaggerDocument from "./swagger-output.json" assert {type : "json"}
 
 const app = express()
 dotenv.config()

@@ -6,8 +6,8 @@
   "type": "module",
   "experimentalModules": true,
   "scripts": {
-    "start" : "node index.js",
-    "dev": "nodemon index.js",
+    "start" : "node --experimental-json-modules index.js",
+    "dev": "nodemon --experimental-json-modules index.js",
     "generateDoc": "node utils/swagger.js"
   },
   "author": "nidhish-srivastava",
