@@ -49,13 +49,39 @@ npm run dev
 ```
 By Default it is running on port 3000
 
-### 6. Access the API Documentation
+### 6. Access the API Documentation(Swagger Ui)
 Once the app is running, you can access the API documentation at:
 http://localhost:3000/api-docs
+Command to generate docs
+```bash
+npm run generateDoc
+```
 
+
+
+### 7. WebSocket Server
+Basic real-time chat using WebSockets (Socket.io) and real time notification when a user comments on a post
 
 ### Database design schema:
 https://excalidraw.com/#json=l1s13_7xsPgg4t6Ae3Qmp,05_CSiROvvsjiVWz4yR2IQ
 
 ### Deployment(Vercel):
  https://social-media-app-api-ten.vercel.app/
+
+---
+
+
+
+### Tech Stack
+Nodejs
+ExpressJs
+MongoDB with mongoose
+Packages : 
+expressjs
+bcrypt
+cookie-parser
+cors
+jsonwebtoken
+nodemon 
+dotenv
+swagger-ui-express with swagger-autogen
