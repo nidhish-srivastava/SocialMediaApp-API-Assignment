@@ -8,6 +8,7 @@ Before setting up the app, ensure you have the following installed on your machi
 
 - [Node.js](https://nodejs.org/) (Recommended version: v14 or above)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
+- [git](https://git-scm.com/) (Version control)
 
 ## Getting Started
 
