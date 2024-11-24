@@ -67,7 +67,7 @@ Basic real-time chat using WebSockets (Socket.io) and real time notification whe
 https://excalidraw.com/#json=l1s13_7xsPgg4t6Ae3Qmp,05_CSiROvvsjiVWz4yR2IQ
 
 ### Deployment(Vercel):
- https://social-media-app-api-ten.vercel.app/
+https://social-media-app-api-ten.vercel.app
 
 ---
 
