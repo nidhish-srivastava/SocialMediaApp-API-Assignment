@@ -1,9 +1,10 @@
 import {Server} from "socket.io"
 import http from "http"
 
+const setupSocketServer = (app) =>{
+    
 const server = http.createServer(app)
 const io = new Server(server)
-
 
 io.on('connection', (socket) => {
     console.log("A user is connected");
@@ -36,3 +37,7 @@ io.on('connection', (socket) => {
         console.log('User disconnected');
     });
 });
+return server
+}
+
+export default setupSocketServer

@@ -6,9 +6,13 @@ import dotenv from "dotenv"
 import swaggerui from "swagger-ui-express"
 import router from "./routes/index.js"
 import swaggerDocument from "./swagger-output.json" assert {type : "json"}
+import setupSocketServer from "./socket-server/index.js"
 
 const app = express()
 dotenv.config()
+
+// Calling the socket server function to setup the socket server
+setupSocketServer(app)
 
 const port = 3000 || process.env.PORT
 app.use(express.json())
