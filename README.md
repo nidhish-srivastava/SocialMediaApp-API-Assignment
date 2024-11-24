@@ -71,17 +71,26 @@ https://excalidraw.com/#json=l1s13_7xsPgg4t6Ae3Qmp,05_CSiROvvsjiVWz4yR2IQ
 ---
 
 
+## Tech Stack
 
-### Tech Stack
-Nodejs
-ExpressJs
-MongoDB with mongoose
-Packages : 
-expressjs
-bcrypt
-cookie-parser
-cors
-jsonwebtoken
-nodemon 
-dotenv
-swagger-ui-express with swagger-autogen
+### Backend
+
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express.js**: A minimal and flexible Node.js web application framework.
+
+### Database
+
+- **MongoDB**: A NoSQL database for storing application data.
+- **Mongoose**: An ODM (Object Data Modeling) library for MongoDB and Node.js.
+
+### Packages
+
+- **express**: Fast, unopinionated, minimalist web framework for Node.js.
+- **bcrypt**: A library to help hash passwords.
+- **cookie-parser**: Parse HTTP request cookies.
+- **cors**: Enable Cross-Origin Resource Sharing (CORS) with various options.
+- **jsonwebtoken**: Implementation of JSON Web Tokens.
+- **nodemon**: A tool that helps develop Node.js-based applications by automatically restarting the node application when file changes are detected.
+- **dotenv**: Loads environment variables from a `.env` file into `process.env`.
+- **swagger-ui-express**: Serve auto-generated swagger-ui generated API docs from express.
+- **swagger-autogen**: Automatic swagger documentation generator.
