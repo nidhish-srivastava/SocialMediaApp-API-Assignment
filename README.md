@@ -1,4 +1,4 @@
-# Social Media App API - Local Setup
+# Social Media App API
 
 Welcome to the **Social Media App API** project! This API powers the backend of a social media application. This guide will walk you through setting up and running the app locally.
 
